@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1540px;
+    border: 3px solid black;
+    box-shadow: 0px 0px 10px black;
+    /* position: fixed; */
+}
+.Logo{
+    height: 180px;
+    width: 200px;
+}
+.button{
+    padding-left: 4px;
+    padding-right: 40px;
+}
+.navcontainer{
+    position: fixed;
+    height: 200px;
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.content{
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
+nav{
+    width: 100%;
+    overflow-x: none;
+}
+.get-recipe{
+    font-size: 80px;
+    position: relative;
+    top: 20px;
+    left: 150px;
+    bottom: 30px;
+}
+.text{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+#List{
+    padding: 20px;
+    width: 100%;
+    list-style: none;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+}
+.page{
+    display: flex;
+    gap: 30px;
+}
+.Search{
+    border-radius: 5px;
+}
+.Search-bar{
+    border-radius: 5px;
+}
+.img{
+    /* padding-top: 20px;  */
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-bottom: 50px;
+    height: 300px;
+    width: 350px; 
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+.text{
+    position: relative;
+    font-size: 35px;
+}
+.img:hover{
+    transform: scale(1.03);
+    transition: all 0.3s linear 0.1s;
+}
+.tab{
+
+    height: 900px;
+    width: 1500px;
+}
+#img1{
+    padding-bottom: 40px;
+    margin: 5px;
+    margin-left: 50px;
+    margin-top: 150px;
+    
+}
+#Best-burger{
+    top: 730px;
+    left: 120px;    
+}
+#Noodles{
+    top: 690px;
+    left: 525px;
+}
+#Pasta{
+    top: 650px;
+    left: 900px;
+}
+#pizza{
+    top: 605px;
+    left: 1280px;
+}
+#samosa{
+    top: 925px;
+    left: 150px;
+}
+#Panipuri{
+    top: 885px;
+    left: 500px;
+}
+#Manchurian{
+    top: 850px;
+    left: 850px;
+}
+#dabeli{
+    top: 810px;
+    left: 1250px;
+}
+#Break-fast{
+    position: relative;
+    top: 510px;
+    left: 130px;
+}
+#Lunch{
+    position: relative;
+    top: 470px;
+    left: 530px;
+}
+#Brunch{
+    position: relative;
+    top: 430px;
+    left: 890px;
+}
+#Dinner{
+    position: relative;
+    top: 390px;
+    left: 1300px;
+}
+#img2{
+    padding-bottom: 40px;
+    margin: 5px;
+}
+#img3{
+    padding-bottom: 40px;
+    margin: 5px;
+}
+#img4{
+    padding-bottom: 40px;
+    margin: 5px;
+}
+#img5{
+    padding-bottom: 40px;
+    margin: 5px;
+    margin-top: 50px;
+    margin-left: 40px;
+    /* margin-bottom: 50px; */
+
+}
+#img6{
+    padding-bottom: 40px;
+    margin: 5px;
+    /* margin-bottom: 50px; */
+}
+#img7{
+    padding-bottom: 40px;
+    margin: 5px;
+    /* margin-bottom: 50px; */
+}
+#img8{
+    padding-bottom: 40px;
+    margin: 5px;
+    /* margin-bottom: 50px; */
+}
+#img9{
+
+    position: relative;
+    right: 50px;
+    height: 150;
+    width: 300px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    border-radius: 300px;    
+}
+#img10{ 
+    position: relative;
+    right: 60px;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    height: 150;
+    width: 300px;
+    margin-left: 30px;
+    border-radius: 300px;
+    /* box-shadow: inset; */
+}
+#img11{
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 150;
+    width: 300px;
+    margin-left: 30px;
+    border-radius: 300px;
+}
+#img12{
+    position: relative;
+    left: 1190px;
+    right: 50px;
+    bottom: 330px;
+    /* justify-content: end;
+    align-items: end; */
+    /* margin-top: 50px;
+    margin-bottom: 30px; */
+    height: 150;
+    width: 300px;
+    /* margin-left: 30px; */
+    border-radius: 300px;
+}
+#img13{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 150;
+    width: 300px;
+    margin-left: 30px;
+    border-radius: 300px;
+}
+#img14{
+    /* margin: 30px; */
+    margin-top: 50px;
+    margin-left: 45px;
+    border-radius: 20px;
+}
+#img15{
+    position: relative;
+    bottom: 380px;
+    left: 1200px;
+    height: 200px;
+    width: 200px;
+}
+.text1{
+    font-size: 50px;
+    position: relative;
+    color: white;
+    left: 50px;
+    bottom: 150px;
+}
+.Footerbox{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.Footerbox p{
+    font-size: 25px;
+}
+.Burger-recipe-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("./Img/top-view-brown-bean-soup-delicious-cooked-soup-with-different-seasonings-dark-desk-dinner-soup-meal-bean-food.jpg");
+    background-size: cover;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.prep-time{
+    position: relative;
+    top: 50px;
+    right: 150px;
+}
+.cook-time{
+    position: relative;
+    top: 50px;
+    right: 100px;
+}
+.total-time{
+    position: relative;
+    top: 50px;
+    right: 50px;
+}
+.serving{
+    position: relative;
+    top: 100px;
+    right: 390px;
+}
+.yeild{
+    position: relative;
+    top: 100px;
+    right: 330px;
+}
+.Burger-recipe-container h1{
+    position: relative;
+    left: 80px;
+}
+.Burger-recipe-container h2{
+    position: relative;
+    top: 150px;
+    right: 500px;
+}
+.Burger-recipe-container p{
+    position: relative;
+    top: 200px;
+    right: 630px;
+}
